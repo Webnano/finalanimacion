@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0"/>
+      <title>Examen Modulo</title>
+      <link rel="stylesheet" href="./assets/css/style.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" rel="stylesheet"/>
+
+      
+  </head>
+
+  <body>
+    <div id="grid-container">
+      <header>
+        <div class="logo">
+          <i class="fa-solid fa-camera-retro fa-2x"></i>
+          <p>Retro-Cuidad</p>
+        </div>
+          <div class="hamburgesa">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776</label>
+                <ul class="menudito">
+                  <li><a href="#">Inicio</a></li>
+                  <li><a href="#">Cuidad</a></li>
+                  <li><a href="#">Historia</a></li>
+                  <li><a href="#">Contacto</a></li>
+                </ul>
+          </div>
+        
+        <div class="menu">
+          <button class="btnmenu"><a href="#">Inicio</a></button>
+          <button class="btnmenu"><a href="#">Cuidad</a></button>
+          <button class="btnmenu"><a href="#">Historia</a></button>
+          <button class="btnmenu"><a href="#">Contacto</a></button>
+        </div>
+      </header>
+
+      <nav>
+        <h1 class="ordenar">Santiago de Chile</h1>
+        
+      </nav>
+
+      <main>
+        <div class="card-container">
+          <div class="card">
+            <img src="./assets/img/Sanfrancisco.jpg" alt="san francisco" />
+            <h5>Iglesia de San Francisco</h5>
+            <button>
+              <div id="IdModal" class="modal">
+		                  <h2>Iglesia de San Francisco</h2>
+		                  <p>En el año 1572 comenzó a levantarse la primera versión de la iglesia con mano de obra indígena; sin embargo, en un principio ésta no fue más que una pequeña capilla de adobe y paja, que sucumbió con facilidad al primer sismo de mayor intensidad al que se vio enfrentada.</p>
+		                  <p>Pronto las obras fueron reiniciadas y la iglesia fue terminada para 1618, con muros de piedra blanca, una torre, techo artesonado, sacristía y coro con sillería..</p>
+	                    <p>En 1960 se funda el Comité Pro-Restauración de San Francisco y en 1969 se abre el Museo de Arte Colonial de San Francisco. Entre 1972 y 1974 fueron restaurados la fachada, la torre y el órgano del templo. La restauración continuaría en 1986.</p>
+                      <p>luego de los graves daños que el terremoto de Santiago de 1985 causó a las naves laterales, el reloj y el dintel de entrada del coro del convento. En los años siguientes también fueron restauradas las obras de arte, especialmente el "Árbol Genealógico de la Orden Franciscana".</p>
+                      <p>En septiembre de 2018, el templo celebró 400 años de su inauguración.</p>
+                      <a href="#" rel="modal:close"></a>
+              </div>
+                  <p><a href="#IdModal" rel="modal:open">Conocer mas</a></p>
+            </button>
+          </div>
+          <div class="card">
+            <img src="./assets/img/Nva. York.jpg" alt="nvayork" />
+            <h5> Calle Nva. York</h5>
+              <button>
+                <div id="IdModal" class="modal">
+                        <h2>Barrio La Bolsa</h2>
+		                    <p>El Barrio La Bolsa se encuentra ubicado en el cuadrante conformado por Alameda, Paseo Ahumada, Moneda y Bandera, en el centro de la ciudad de Santiago, Chile.</p>
+		                    <p>Dentro de esta manzana se forman tres calles angulares interiores: Nueva York, La Bolsa y Club de la Unión, que rompen con el tradicional plano damero del centro de Santiago.</p>
+	                      <p>Fue declarado Monumento Nacional de Chile, en la categoría de Zona Típica, mediante el Decreto Supremo n.º 606, del 29 de diciembre de 1989.</p>
+                        <p>La primera institución que decidió comprar un terreno fue el Club de la Unión, que se instaló en la intersección de Alameda con Bandera.</p>
+                        <p>En la intersección de Bandera con Moneda se instaló el edificio de la Bolsa de Comercio de Santiago, que fue el primer edificio del barrio en estar de pie en 1917. Posteriormente se levantaron el Edificio del ex Hotel Mundial, y el Edificio Ariztía, considerado el primer rascacielos de Santiago.</p>
+                  <a href="#" rel="modal:close"></a>
+                </div>
+                <p><a href="#IdModal" rel="modal:open">Conocer mas</a></p>
+              </button>
+          </div>
+
+          <div class="card">
+            <img src="./assets/img/Calle Londres.jpg" alt="londres" />
+            <h5>Calle Londres</h5>
+            <button> 
+              <div id="IdModal" class="modal">
+                <h2>Calle Londres</h2>
+                En Construccion
+                <a href="#" rel="modal:close"></a>
+              </div>
+              <p><a href="#IdModal" rel="modal:open">Conocer mas</a></p>
+            </button>
+          </div>
+          
+          </script>  
+          <div class="card">
+            <img src="./assets/img/Bandera.jpg" alt="bandera" />
+            <h5> Calle Bandera</h5>
+            <button>
+              En Construccion
+            </button>
+          </div>
+          <div class="card">
+            <img src="./assets/img/excongreso.jpg" alt="excongreso" />
+            <h5>Ex-Congreso</h5>
+            <button>
+             En Construccion              
+            </button>
+          </div>
+          <div class="card">
+            <img src="./assets/img/compañia.jpg" alt="compañia" />
+            <h5>Compañia de Jesus</h5>
+            <button>En Construccion</button>
+          </div>
+          <div class="card">
+            <img src="./assets/img/forestal.jpg" alt="forestal" />
+            <h5>Parque Forestal</h5>
+            <button>En Construccion</button>
+          </div>
+          <div class="card">
+            <img src="./assets/img/santamaria.jpg" alt="santamaria" />
+            <h5>Santa Maria</h5>
+            <button>En Construccion </button>
+          </div>
+        </div>
+        
+      </main>
+      
+      <footer>
+        <div class="rss">
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https://facebook.com" target="_blank"><i class="fab fa-2x mx-2 fa-facebook"></i></a>
+          <a href="https://www.instagram.com/lunanomedina" target="_blank"><i class="fab fa-2x mx-2 fa-instagram"></i></a>
+        </div>
+        <p>@lunanomedina</p>
+      </footer>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/ee1abd72d2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
